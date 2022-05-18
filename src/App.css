@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+body{
+  margin: 0;
+  background-color: #23252C;
+}
+
+.avatar{
+  background-color: #1A1B21;
+  background-position: center;
+  max-width: 317px;
+  height: 317px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+  background-image: url("./images/ben-den-engelsen-YUu9UAcOKZ4-unsplash.jpg");
+  background-size: 50rem;
+  background-repeat: no-repeat;
+  border-radius: 6px 6px 0px 0px;
+}
+
+main{
+  max-width: 317px;
+  height: 399px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: #1A1B21;
+}
+
+.main-div > p, h2{
+  font-size: 16px;
+  margin-top: -15px;
+  text-align: center;
+}
+
+.main-div > p{
+  color: #F3BF99;
+}
+
+.main-div > h1{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border: none;
+  width: 7rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  background-color: #5093E2;
+  color: white;
+}
+
+.contact-btn:hover{
+  transition: ease 0.2s;
+  color:  #5093E2;
+  background-color: white;
+  cursor: pointer;
+}
+
+.info-div{
+  margin-top: 2rem;
+  color: rgb(204, 204, 204);
+  max-width: 300px;
+  font-size: 15px;
+}
+
+.info-div > h2{
+  margin-bottom: -10px;
+  color: white;
+  display: flex;
+}
+
+footer{
+  width: 317px;
+  height: 64px;
+  background-color: #161619;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 0 0 6px 6px;
+  align-items: center;
+  color: rgb(116, 118, 119);
+}
